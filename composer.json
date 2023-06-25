@@ -1,0 +1,87 @@
+{
+    "name": "teknoo/east-paas-symfony",
+    "type": "metapackage",
+    "description": "Metapackage to install Teknoo East PaaS in Symfony, Package following the #East programming philosophy, build on Teknoo/East-Foundation (and Teknoo/Recipe) to implement a custom PaaS manager like platform.sh, compatible with Docker and Kubernetes",
+    "keywords": ["east","paas","image","containerd","buildah","oci","docker","kubernetes","platform","service","ci", "cd","continuous delivery","platform.sh","heroku"],
+    "homepage": "http://teknoo.software/east/paas-symfony",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Richard Déloge",
+            "email": "richard@teknoo.software",
+            "role": "Software architect, Lead developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/TeknooSoftware/east-paas-symfony/issues",
+        "source": "https://github.com/TeknooSoftware/east-paas-symfony"
+    },
+    "funding": [
+        {
+            "type": "patreon",
+            "url": "https://www.patreon.com/teknoo_software"
+        },
+        {
+            "type": "github",
+            "url": "https://github.com/sponsors/TeknooSoftware"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "ext-amqp": "*",
+        "ext-ctype": "*",
+        "ext-iconv": "*",
+        "ext-json": "*",
+        "doctrine/common": "^3.4.3",
+        "doctrine/mongodb-odm": "^2.5.2",
+        "doctrine/mongodb-odm-bundle": "^4.5.2",
+        "doctrine/persistence": "^3.2",
+        "guzzlehttp/guzzle": "^7.7",
+        "laminas/laminas-diactoros": "^2.25.2",
+        "league/flysystem": "^3.15.1",
+        "php-di/php-di": "^6.4",
+        "php-http/guzzle7-adapter": "^1.0",
+        "psr/http-client": "^1.0.2",
+        "symfony/amqp-messenger": "*",
+        "symfony/console": "*",
+        "symfony/form": "*",
+        "symfony/http-client": "*",
+        "symfony/mercure-bundle": "^0.3.7",
+        "symfony/messenger": "*",
+        "symfony/mime": "*",
+        "symfony/notifier": "*",
+        "symfony/process": "*",
+        "symfony/property-access": "*",
+        "symfony/property-info": "*",
+        "symfony/psr-http-message-bridge": "^2.2",
+        "symfony/security-bundle": "*",
+        "symfony/serializer": "*",
+        "symfony/validator": "*",
+        "symfony/yaml": "*",
+        "teknoo/bridge-phpdi-symfony": "^5.2.6",
+        "teknoo/east-common-symfony": "^1.9.5",
+        "teknoo/east-foundation-symfony": "^6.2.11",
+        "teknoo/immutable": "^3.0.16",
+        "teknoo/recipe": "^4.2.8",
+        "teknoo/states": "^6.1.1",
+        "teknoo/east-paas": "^1.8",
+        "teknoo/kubernetes-client": "^1.4.1"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    },
+    "extra": {
+        "symfony" : {
+            "endpoint": [
+                "https://api.github.com/repos/TeknooSoftware/symfony-recipes/contents/index.json",
+                "flex://defaults"
+            ]
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "teknoo/composer-install": true,
+            "php-http/discovery": true
+        }
+    }
+}
