@@ -40,4 +40,4 @@ This library requires :
     * Teknoo/States.
     * Teknoo/Recipe.
     * Teknoo/East-Foundation.
-    * Optional: Symfony 6.2+ (for administration)
+    * Optional: Symfony 6.4+ (for administration)
