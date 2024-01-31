@@ -59,13 +59,13 @@
         "symfony/serializer": "^6.3||^7",
         "symfony/validator": "^6.3||^7",
         "symfony/yaml": "^6.3||^7",
-        "teknoo/bridge-phpdi-symfony": "^6.0.4",
-        "teknoo/east-common-symfony": "^2.6.6",
-        "teknoo/east-foundation-symfony": "^7.4",
+        "teknoo/bridge-phpdi-symfony": "^6.0.5",
+        "teknoo/east-common-symfony": "^2.7",
+        "teknoo/east-foundation-symfony": "^7.5.1",
         "teknoo/immutable": "^3.0.17",
         "teknoo/recipe": "^4.5.2",
         "teknoo/states": "^6.1.5",
-        "teknoo/east-paas": "^2.4.6",
+        "teknoo/east-paas": "^2.4.7",
         "teknoo/kubernetes-client": "^1.4.4"
     },
     "require-dev": {
