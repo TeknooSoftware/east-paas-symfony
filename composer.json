@@ -64,8 +64,8 @@
         "teknoo/east-foundation-symfony": "^7.6.1",
         "teknoo/immutable": "^3.0.17",
         "teknoo/recipe": "^4.6.1",
-        "teknoo/states": "^6.1.6",
-        "teknoo/east-paas": "^2.8",
+        "teknoo/states": "^6.1.7",
+        "teknoo/east-paas": "^2.8.1",
         "teknoo/kubernetes-client": "^1.4.4"
     },
     "require-dev": {
