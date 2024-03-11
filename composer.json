@@ -60,13 +60,13 @@
         "symfony/validator": "^6.3||^7",
         "symfony/yaml": "^6.3||^7",
         "teknoo/bridge-phpdi-symfony": "^6.0.5",
-        "teknoo/east-common-symfony": "^2.9",
-        "teknoo/east-foundation-symfony": "^7.6.1",
+        "teknoo/east-common-symfony": "^2.9.2",
+        "teknoo/east-foundation-symfony": "^7.6.2",
         "teknoo/immutable": "^3.0.17",
-        "teknoo/recipe": "^4.6.1",
+        "teknoo/recipe": "^5",
         "teknoo/states": "^6.1.7",
-        "teknoo/east-paas": "^2.8.1",
-        "teknoo/kubernetes-client": "^1.4.4"
+        "teknoo/east-paas": "^2.8.2",
+        "teknoo/kubernetes-client": "^1.5"
     },
     "require-dev": {
         "roave/security-advisories": "dev-latest"
