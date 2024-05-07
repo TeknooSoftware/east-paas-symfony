@@ -60,12 +60,12 @@
         "symfony/validator": "^6.3||^7",
         "symfony/yaml": "^6.3||^7",
         "teknoo/bridge-phpdi-symfony": "^6.0.5",
-        "teknoo/east-common-symfony": "^2.10.1",
-        "teknoo/east-foundation-symfony": "^7.6.3",
+        "teknoo/east-common-symfony": "^2.11",
+        "teknoo/east-foundation-symfony": "^7.7",
         "teknoo/immutable": "^3.0.17",
-        "teknoo/recipe": "^5.0.1",
-        "teknoo/states": "^6.2",
-        "teknoo/east-paas": "^3.3.1",
+        "teknoo/recipe": "^5.1",
+        "teknoo/states": "^6.3",
+        "teknoo/east-paas": "^3.3.2",
         "teknoo/kubernetes-client": "^1.5.2"
     },
     "require-dev": {
