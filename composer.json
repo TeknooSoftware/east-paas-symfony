@@ -65,7 +65,7 @@
         "teknoo/immutable": "^3.0.17",
         "teknoo/recipe": "^5.1",
         "teknoo/states": "^6.3",
-        "teknoo/east-paas": "^3.3.6",
+        "teknoo/east-paas": "^3.3.7",
         "teknoo/kubernetes-client": "^1.5.2"
     },
     "require-dev": {
