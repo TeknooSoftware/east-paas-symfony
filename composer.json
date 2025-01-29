@@ -35,7 +35,7 @@
         "doctrine/common": "^3.4.5",
         "doctrine/mongodb-odm": "^2.9",
         "doctrine/mongodb-odm-bundle": "^4.7||^5",
-        "doctrine/persistence": "^3.4",
+        "doctrine/persistence": "^3.4||^4",
         "guzzlehttp/guzzle": "^7",
         "laminas/laminas-diactoros": "^3.3",
         "league/flysystem": "^3.29.1",
@@ -66,7 +66,7 @@
         "teknoo/recipe": "^6.0.1",
         "teknoo/states": "^6.4.2",
         "teknoo/east-paas": "^4.2.5",
-        "teknoo/kubernetes-client": "^1.7.1"
+        "teknoo/kubernetes-client": "^1.7.1     "
     },
     "require-dev": {
         "roave/security-advisories": "dev-latest"
