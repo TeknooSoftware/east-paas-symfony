@@ -65,8 +65,8 @@
         "teknoo/immutable": "^3.0.18",
         "teknoo/recipe": "^6.0.1",
         "teknoo/states": "^6.4.2",
-        "teknoo/east-paas": "^4.2.6",
-        "teknoo/kubernetes-client": "^1.7.1"
+        "teknoo/east-paas": "^4.3.0-beta1",
+        "teknoo/kubernetes-client": "^1.7.3"
     },
     "require-dev": {
         "roave/security-advisories": "dev-latest"
