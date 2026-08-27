@@ -42,7 +42,7 @@
         "php-di/php-di": "^7.1.1",
         "php-http/guzzle7-adapter": "^1.1",
         "psr/http-client": "^1.0.3",
-        "phpseclib/phpseclib": "^3.0.46",
+        "phpseclib/phpseclib": "^4",
         "symfony/amqp-messenger": "^6.4.24||^7.4||^8.1",
         "symfony/console": "^6.4.24||^7.4||^8.1",
         "symfony/form": "^6.4.24||^7.4||^8.1",
@@ -64,7 +64,7 @@
         "teknoo/immutable": "^3.0.22",
         "teknoo/recipe": "^7.2.2",
         "teknoo/states": "^7.1.6",
-        "teknoo/east-paas": "^5.7.0-beta4",
+        "teknoo/east-paas": "^5.7.0-beta5",
         "teknoo/kubernetes-client": "^2.0.3"
     },
     "require-dev": {
