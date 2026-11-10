@@ -32,7 +32,6 @@
         "ext-ctype": "*",
         "ext-iconv": "*",
         "ext-json": "*",
-        "doctrine/common": "^3.5",
         "doctrine/mongodb-odm": "^2.15.3",
         "doctrine/mongodb-odm-bundle": "^5.5.1",
         "doctrine/persistence": "^4.1.1",
@@ -59,12 +58,12 @@
         "symfony/validator": "^6.4.24||^7.4||^8.1",
         "symfony/yaml": "^6.4.24||^7.4||^8.1",
         "teknoo/bridge-phpdi-symfony": "^7.2",
-        "teknoo/east-common-symfony": "^4.8",
+        "teknoo/east-common-symfony": "^4.10.1",
         "teknoo/east-foundation-symfony": "^9.4",
         "teknoo/immutable": "^3.0.22",
         "teknoo/recipe": "^7.3",
         "teknoo/states": "^7.1.13",
-        "teknoo/east-paas": "^5.11.5",
+        "teknoo/east-paas": "^5.11.7",
         "teknoo/kubernetes-client": "^2.1.1"
     },
     "require-dev": {
